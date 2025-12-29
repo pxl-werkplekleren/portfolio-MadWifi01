@@ -4,8 +4,51 @@
     padding: 0;
 }
 tr{
-    border-collapse: collapse;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border: 1px solid black;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 6px 8px;
+    vertical-align: top;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+td ul {
+    margin: 0;
+    padding-left: 16px;
+}
+td li {
+    margin-bottom: 4px;
+}
+table{
+    word-wrap: normal;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    table-layout: fixed;
+}
+table th:nth-child(1),
+table td:nth-child(1) {
+    width: 5%;
+    text-align: center;
+}
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 15%;
+}
+table th:nth-child(3),
+table td:nth-child(3) {
+    width: 35%;
+}
+table th:nth-child(4),
+table td:nth-child(4) {
+    width: 20%;
+}
+table th:nth-child(5),
+table td:nth-child(5) {
+    width: 25%;
 }
