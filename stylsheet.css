@@ -12,7 +12,7 @@ tr{
 
 th,td{
     border: 1px solid black;
-    padding: 6px 8px;
+    padding: 8px 0;
     vertical-align: top;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -92,4 +92,9 @@ background-color: #3ca7ff;
 .rollen th:nth-child(2),
 .rollen td:nth-child(2) {
     width: 75%;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
 }
