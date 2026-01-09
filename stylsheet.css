@@ -172,3 +172,12 @@ p{
     background: #d1ac17;
 
 }
+footer{
+    padding: 2rem;
+    background-image: linear-gradient(to left, #000000, #ffffff, #000000);
+    color: white;
+.up{
+    text-align: center;
+    color: black;
+}
+}
