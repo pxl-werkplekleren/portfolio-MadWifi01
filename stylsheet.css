@@ -30,6 +30,7 @@ table{
     border: 1px solid black;
     width: 100%;
     table-layout: fixed;
+
 }
 table th:nth-child(1),
 table td:nth-child(1) {
@@ -181,3 +182,4 @@ footer{
     color: black;
 }
 }
+
