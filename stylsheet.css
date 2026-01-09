@@ -56,7 +56,9 @@ table td:nth-child(5) {
 }
 nav ul{
     overflow: hidden;
-
+    background-image: url("/Images/Berg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     list-style-type: none;
     display: flex;
 }
