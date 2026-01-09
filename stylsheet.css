@@ -35,6 +35,7 @@ table th:nth-child(1),
 table td:nth-child(1) {
     width: 5%;
     text-align: center;
+
 }
 table th:nth-child(2),
 table td:nth-child(2) {
@@ -54,12 +55,14 @@ table td:nth-child(5) {
 }
 nav ul{
     overflow: hidden;
-    background-color: blue;
+    background-image: url("/Images/Berg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     list-style-type: none;
     display: flex;
 }
 nav a{
-    color: white;
+    color: rgb(60, 167, 255);
     text-decoration: none;
     display: block;
     padding: 2rem;
@@ -70,7 +73,7 @@ nav a{
 nav a:hover{
     color: black;
     text-decoration: underline;
-background-color: #3ca7ff;
+background-color: rgba(60, 167, 255, 0.6);
 }
 .rollen{
     word-wrap: normal;
@@ -81,10 +84,7 @@ background-color: #3ca7ff;
     table-layout: fixed;
 
 }
-.rol{
-    column-span: all;
-    border : none;
-}
+
 .rollen th:nth-child(1),
 .rollen td:nth-child(1) {
     width: 25%;
@@ -97,4 +97,42 @@ background-color: #3ca7ff;
     text-align: center;
     font-weight: bold;
     padding: 1rem;
+}
+h2{
+ text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: underline;
+color: white;
+    background-image: linear-gradient(to left, #ffffff, #000000, #ffffff);
+}
+p{
+    text-align: Center;
+    padding: 0.5rem;
+}
+.rol {
+    column-span: all;
+    border : none;
+    width: 100%;
+}
+#vakantie{
+    column-span: all;
+    border : none;
+    width: 100%;
+}
+#Kvakantie{
+    column-span: all;
+    border : none;
+    width: 100%;
+}
+#Kvakantie2{
+    column-span: all;
+    border : none;
+    width: 100%;
 }
