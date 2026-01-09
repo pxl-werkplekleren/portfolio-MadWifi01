@@ -136,3 +136,39 @@ p{
     border : none;
     width: 100%;
 }
+.bar {
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 12px;
+}
+
+.progress {
+    height: 100%;
+}
+
+.progress.ontwerper {
+    width: 65%;
+    background: #4caf4e;
+
+}
+.progress.programmeur {
+    width: 60%;
+    background: #7caf4c;
+
+}
+.progress.tester {
+    width: 82%;
+    background: #17d11b;
+
+}
+.progress.teamspeler {
+    width: 50%;
+    background: #d1c817;
+
+}
+.progress.lerende {
+    width: 37%;
+    background: #d1ac17;
+
+}
