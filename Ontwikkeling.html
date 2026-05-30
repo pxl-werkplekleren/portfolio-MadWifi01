@@ -1,359 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <title>Ontwikkeling</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="stylsheet.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ontwikkeling — Lars Dreesen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>nav a[href="Ontwikkeling.html"] { color: var(--accent); } nav a[href="Ontwikkeling.html"]::after { width: 100%; }</style>
 </head>
 <body id="Boven">
-<header>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Introductie</a>
-            </li>
-            <li>
-                <a href="logboek.html">Logboek</a>
-            </li>
-            <li>
-                <a href="Ontwikkeling.html">Ontwikkeling</a>
-            </li>
-            <li>
-                <a href="Opdrachten.html">Opdrachten</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <h1>Mijn keuze voor deze opleiding</h1>
-    <p>Waarom kies je voor de opleiding programmeren?</p>
-    <p>Aangezien ik hiervoor al een programeer richting gedaan had leek dit de meest logiesche opleiding om te gaan doen.<br></p>
-    <p>Waarom denk je dat dit beroep bij jou past?</p>
-    <p></p>
-    <h1>Rollen</h1>
-    <h2>Ontwerper</h2>
-    <div class="bar">
-        <div class="progress ontwerper"></div>
+  <div class="bg-orb orb1"></div>
+  <header>
+    <nav><ul>
+      <li><a href="index.html">Introductie</a></li>
+      <li><a href="logboek.html">Logboek</a></li>
+      <li><a href="Ontwikkeling.html">Ontwikkeling</a></li>
+      <li><a href="Opdrachten.html">Opdrachten</a></li>
+    </ul></nav>
+  </header>
+
+  <div class="page-wrap">
+    <div class="page-header">
+      <span class="label">Competenties</span>
+      <h1>Mijn Ontwikkeling</h1>
+      <div class="divider"></div>
     </div>
-    <p>Waar sta je momenteel?</p>
-    <p>groeifase<br></p>
 
-    <p>
-        Wat lukt je al goed?
-    </p>
-    <p>Ik kan eenvoudige analyses en ontwerpen maken<br></p>
-    <p>
-        Wat lukt je nog niet?
-    </p>
-    <p>bij complexere projecten heb ik nog soms moeite<br></p>
-    <p>Voorbeelden</p>
-    <p>Ik heb meegewerkt aan het uitwerken van een ontwerp voor een kleine applicatie. <br>
-        Deze activiteit hoort bij de rol van ontwerper omdat ze gericht is op het voorbereiden van de realisatie van een softwareproject (OLR1).
-    </p>
-    <p>Op basis van projectvereisten heb ik nagedacht voor de keuze van een programmeertaal en een ontwikkelmethode.
-        <br>
-        Dit past binnen OLR2, omdat ik een voorstel maakte voor programmeertaal of methodiek.
-    </p>
-    <p>
-        Ik heb het voorgestelde ontwerpen besproken gehad met leerkrachten. <br>
-        overleg met ontwikkelaars of projectleiders staat centraal in OLR2.
-    </p>
+    <h2 class="section-title">Mijn keuze voor deze opleiding</h2>
+    <p style="color:rgba(232,228,220,0.7);line-height:1.8;margin-bottom:0.75rem;">Aangezien ik hiervoor al een programmeerrichting gedaan had, leek dit de meest logische opleiding om verder te volgen.</p>
 
-    <h2>Programmeur</h2>
-    <div class="bar">
-        <div class="progress programmeur"></div>
+    <h2 class="section-title">Rollen</h2>
+
+    <div class="role-card">
+      <div class="role-header">
+        <span class="role-name">Ontwerper</span>
+        <span class="role-phase">Groeifase</span>
+      </div>
+      <div class="bar"><div class="progress" style="width:65%"></div></div>
+      <div class="role-grid">
+        <div class="role-col"><div class="role-col-label">Wat lukt al goed</div><p>Ik kan eenvoudige analyses en ontwerpen maken.</p></div>
+        <div class="role-col"><div class="role-col-label">Nog te verbeteren</div><p>Bij complexere projecten heb ik nog soms moeite.</p></div>
+      </div>
+      <div class="examples-title">Voorbeelden</div>
+      <div class="example-item"><p>Meegewerkt aan het uitwerken van een ontwerp voor een kleine applicatie. <span class="olr-tag">OLR1</span></p></div>
+      <div class="example-item"><p>Op basis van projectvereisten nagedacht over de keuze van programmeertaal en methodiek. <span class="olr-tag">OLR2</span></p></div>
+      <div class="example-item"><p>Het voorgestelde ontwerp besproken met leerkrachten. <span class="olr-tag">OLR2</span></p></div>
     </div>
-    <p>Waar sta je momenteel?</p>
-    <p>groeifase<br></p>
 
-    <p>
-        Wat lukt je al goed?
-    </p>
-    <p>Ik kan zelfstandig code schrijven volgens afspraken en methodiek<br></p>
-    <p>
-        Wat lukt je nog niet?
-    </p>
-    <p>ik heb nog moeite met grotere, bestaande codebases.<br></p>
-    <p>Voorbeelden</p>
-    <p>Ik heb Git gebruikt om code bij te houden, wijzigingen te beheren en samen te werken met anderen. <br>
-        Dit draagt bij aan een gedeelde infrastructuur en een correcte digitale werkomgeving (OLR4).
-    </p>
-    <p>Ik heb code geschreven om aan specifieke voorwaarden te voldoen. <br>
-        Dit is een kerntaak en sluit aan bij OLR3: het realiseren van softwareapplicaties volgens het projectplan.
-    </p>
-    <p>
-        Na feedback heb ik bestaande code aangepast om fouten te verbeteren. <br>
-        Deze activiteit hoort bij OLR6, vanwege onderhoud.
-    </p>
-
-    <h2>Tester</h2>
-    <div class="bar">
-        <div class="progress tester"></div>
+    <div class="role-card">
+      <div class="role-header">
+        <span class="role-name">Programmeur</span>
+        <span class="role-phase">Groeifase</span>
+      </div>
+      <div class="bar"><div class="progress" style="width:60%"></div></div>
+      <div class="role-grid">
+        <div class="role-col"><div class="role-col-label">Wat lukt al goed</div><p>Ik kan zelfstandig code schrijven volgens afspraken en methodiek.</p></div>
+        <div class="role-col"><div class="role-col-label">Nog te verbeteren</div><p>Ik heb nog moeite met grotere, bestaande codebases.</p></div>
+      </div>
+      <div class="examples-title">Voorbeelden</div>
+      <div class="example-item"><p>Git gebruikt om code bij te houden, wijzigingen te beheren en samen te werken. <span class="olr-tag">OLR4</span></p></div>
+      <div class="example-item"><p>Code geschreven om aan specifieke voorwaarden te voldoen. <span class="olr-tag">OLR3</span></p></div>
+      <div class="example-item"><p>Na feedback bestaande code aangepast om fouten te verbeteren. <span class="olr-tag">OLR6</span></p></div>
     </div>
-    <p>Waar sta je momenteel?</p>
-    <p>redelijk zelfstandig<br></p>
 
-    <p>
-        Wat lukt je al goed?
-    </p>
-    <p>Ik kan goed bugs opsporen en maken<br></p>
-    <p>
-        Wat lukt je nog niet?
-    </p>
-    <p>bugs met code die ik niet begrijp gaat uiteraard niet<br></p>
-    <p>Voorbeelden</p>
-    <p>Ik heb zelf gemaakte code getest. <br>
-        Dit sluit aan bij OLR7: het nagaan van de werking en functionaliteit van code.
-    </p>
-    <p>Tijdens het testen ontdekte ik bugs, die ik vervolgens heb opgelost. <br>
-        Het verbeteren van code op basis van testresultaten hoort bij de rol van tester (OLR7).
-    </p>
-    <p>
-        Ik heb feedback leerkrachten gebruikt om de applicatie te verbeteren. (OLR7).
-    </p>
-
-    <h2>Communicator / Teamspeler</h2>
-    <div class="bar">
-        <div class="progress teamspeler"></div>
+    <div class="role-card">
+      <div class="role-header">
+        <span class="role-name">Tester</span>
+        <span class="role-phase">Redelijk zelfstandig</span>
+      </div>
+      <div class="bar"><div class="progress" style="width:82%"></div></div>
+      <div class="role-grid">
+        <div class="role-col"><div class="role-col-label">Wat lukt al goed</div><p>Ik kan goed bugs opsporen en verhelpen.</p></div>
+        <div class="role-col"><div class="role-col-label">Nog te verbeteren</div><p>Bugs in code die ik nog niet begrijp zijn moeilijker op te lossen.</p></div>
+      </div>
+      <div class="examples-title">Voorbeelden</div>
+      <div class="example-item"><p>Zelf gemaakte code getest en de werking nagegaan. <span class="olr-tag">OLR7</span></p></div>
+      <div class="example-item"><p>Bugs ontdekt en vervolgens opgelost op basis van testresultaten. <span class="olr-tag">OLR7</span></p></div>
+      <div class="example-item"><p>Feedback van leerkrachten gebruikt om de applicatie te verbeteren. <span class="olr-tag">OLR7</span></p></div>
     </div>
-    <p>Waar sta je momenteel?</p>
-    <p>groeifase<br></p>
 
-    <p>
-        Wat lukt je al goed?
-    </p>
-    <p>Mee denken over een probleem.<br></p>
-    <p>
-        Wat lukt je nog niet?
-    </p>
-    <p>duidelijke communicatie<br></p>
-    <p>Voorbeelden</p>
-    <p>Ik heb actief samengewerkt in een team en geholpen bij problemen. <br>
-        Samenwerking hoort bij OLR8.
-    </p>
-    <p>Ik heb mijn voortgang en resultaten duidelijk gecommuniceerd tijdens overlegmomenten of via verslagen. <br>
-        Dit sluit aan bij OLR9: efficiënt communiceren en rapporteren.
-    </p>
-    <p>Ik heb documentatie geschreven gehad over de werking van mijn applicaties. <br>
-        Dit past bij OLR10, waarbij duidelijke en gestructureerde technische documentatie centraal staat.
-    </p>
-
-    <h2>Levenslang lerende IT-professional</h2>
-    <div class="bar">
-        <div class="progress lerende"></div>
+    <div class="role-card">
+      <div class="role-header">
+        <span class="role-name">Communicator / Teamspeler</span>
+        <span class="role-phase">Groeifase</span>
+      </div>
+      <div class="bar"><div class="progress" style="width:50%"></div></div>
+      <div class="role-grid">
+        <div class="role-col"><div class="role-col-label">Wat lukt al goed</div><p>Meedenken over een probleem.</p></div>
+        <div class="role-col"><div class="role-col-label">Nog te verbeteren</div><p>Duidelijkere communicatie.</p></div>
+      </div>
+      <div class="examples-title">Voorbeelden</div>
+      <div class="example-item"><p>Actief samengewerkt in een team en geholpen bij problemen. <span class="olr-tag">OLR8</span></p></div>
+      <div class="example-item"><p>Voortgang en resultaten gecommuniceerd tijdens overlegmomenten. <span class="olr-tag">OLR9</span></p></div>
+      <div class="example-item"><p>Documentatie geschreven over de werking van mijn applicaties. <span class="olr-tag">OLR10</span></p></div>
     </div>
-    <p>Waar sta je momenteel?</p>
-    <p>beginfase<br></p>
 
-    <p>
-        Wat lukt je al goed?
-    </p>
-    <p>Nieuwe technologieen leren kennen<br></p>
-    <p>
-        Wat lukt je nog niet?
-    </p>
-    <p>Interesse behouden<br></p>
-    <p>Voorbeelden</p>
-    <p>Ik heb tutorials gevolgd of documentatie gelezen over nieuwe tools. <br>
-        Dit toont aan dat ik mijn kennis actief onderhoud, OLR11.
-    </p>
-    <p>Na projecten heb ik nagedacht over wat goed ging en wat ik in de toekomst kan verbeteren. <br>
-        Zelfreflectie en zelfkennis horen bij OLR12.
-    </p>
-    <p>Ik heb bij het ontwikkelen van software rekening gehouden met privacy (bv. geen gevoelige data opslaan zonder reden).
-        <br>
-        Dit sluit aan bij OLR13, waarin deontologisch, veilig en duurzaam handelen centraal staat.
-    </p>
-
-    <h1>Rollen Info</h1>
-    <section>
-    <table class="rollen">
-        <thead>
-        <tr>
-            <th>OLR</th>
-            <th>Omschrijving</th>
-        </tr>
-        </thead>
-        <tr>
-            <td class="rol"><p><strong>Rol: Ontwerper</strong></p></td>
-        </tr>
-        <tr>
-            <td><p>OLR1</p></td>
-            <td>
-                <div>
-                    <p>De gegradueerde bereidt de realisatie van een softwareproject voor.</p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td><p>OLR2</p></td>
-            <td>
-                <div>
-                    <p>De gegradueerde maakt op basis van de analyse een onderbouwd voorstel voor:</p>
-                    <ol type="a">
-                        <li><p>het ontwerp,</p></li>
-                        <li><p>de programmeertaal en</p></li>
-                        <li><p>de methodiek.</p></li>
-                    </ol>
-                    <p>De gegradueerde stemt het voorstel af met de softwareontwikkelaar, analist en/of projectleider.</p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="rol"><p><strong>Rol: Programmeur</strong></p></td>
-        </tr>
-        <tr>
-            <td>
-                <p>OLR3</p>
-            </td>
-            <td>
-                <div>
-                    <p>
-                        De gegradueerde realiseert softwareapplicaties en gegevensstructuren.
-                        De gegradueerde werkt hierbij planmatig binnen de context van het projectplan,
-                        de beschikbare tools en de vooropgestelde methodiek.
-                    </p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td><p>OLR4</p></td>
-            <td>
-                <div>
-                    <p>
-                        De gegradueerde is medeverantwoordelijk voor de eigen digitale werkomgeving <br>
-                        en draagt bij tot de gedeelde infrastructuur die nodig is voor het ontwikkelen, <br>
-                        testen en in productie brengen van projecten.
-                    </p>
-                </div>
-            </td>
-        </tr>
-<tr>
-    <td>
-        <p>OLR5</p>
-    </td>
-    <td>
-        <div>
-            <p>        De gegradueerde programmeert softwaretoepassingen volgens de standaarden <br>
-                en afspraken binnen de organisatie.
-            </p>
-        </div>
-    </td>
-</tr>
-<tr> <td><p>OLR6</p></td>
-<td>
-    <div>
-        <p>
-            De gegradueerde gaat in overleg met de softwareontwikkelaar, analist en/of projectleider <br>
-            na of het opgeleverde product onderhoud en/of aanpassingen nodig heeft. <br>
-            De gegradueerde voert het onderhoud en de aanpassingen projectmatig uit, <br>
-            rekening houdend met eerder gemaakte afspraken.
-        </p>
+    <div class="role-card">
+      <div class="role-header">
+        <span class="role-name">Levenslang lerende IT-professional</span>
+        <span class="role-phase">Beginfase</span>
+      </div>
+      <div class="bar"><div class="progress" style="width:37%"></div></div>
+      <div class="role-grid">
+        <div class="role-col"><div class="role-col-label">Wat lukt al goed</div><p>Nieuwe technologieën leren kennen.</p></div>
+        <div class="role-col"><div class="role-col-label">Nog te verbeteren</div><p>Interesse langdurig behouden.</p></div>
+      </div>
+      <div class="examples-title">Voorbeelden</div>
+      <div class="example-item"><p>Tutorials gevolgd en documentatie gelezen over nieuwe tools. <span class="olr-tag">OLR11</span></p></div>
+      <div class="example-item"><p>Na projecten nagedacht over wat goed ging en wat ik kan verbeteren. <span class="olr-tag">OLR12</span></p></div>
+      <div class="example-item"><p>Bij het ontwikkelen rekening gehouden met privacy en veiligheidsrichtlijnen. <span class="olr-tag">OLR13</span></p></div>
     </div>
-</td>
-</tr>
-        <tr>
-            <td class="rol"><p><strong>Rol: Tester</strong></p></td>
-        </tr>
-        <tr>
-            <td><p>OLR7</p></td>
 
-            <td>
-                <div>
-                    <p>
-                        De gegradueerde gaat volgens testscenario’s de werking en functionaliteit <br>
-                        van de gerealiseerde code na en verbetert deze op basis van feedback van <br>
-                        de softwareontwikkelaar, analist, projectleider en/of gebruikers.
-                    </p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="rol"><p><strong>Rol: Communicator / Teamspeler</strong></p></td>
-        </tr>
-<tr>
-    <td><p>ORL8</p></td>
-    <td>
-        <div>
-            <p>
-                De gegradueerde werkt constructief en actief samen in een multidisciplinair team <br>
-                en participeert actief tijdens overlegmomenten. <br>
-                De gegradueerde zoekt mee naar oplossingen om problemen te vermijden.
-            </p>
-        </div>
-    </td>
-</tr>
-        <tr>
-            <td><p>OLR9</p></td>
-            <td>
-                <div>
-                    <p>
-                        De gegradueerde communiceert en rapporteert efficiënt over het geleverde werk, <br>
-                        aangepast aan het doelpubliek en gebruikt hiervoor het gepaste Engelstalige vakjargon.
-                    </p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td><p>OLR10</p></td>
-            <td>
-                <div>
-                    <p>
-                        De gegradueerde documenteert de zelf ontwikkelde applicaties op een adequate <br>
-                        en overzichtelijke manier gebruikmakend van een kennisdatabank en volgens de <br>
-                        afspraken binnen de organisatie. <br>
-                        De gegradueerde geeft kwalitatieve input voor de gebruikershandleidingen, <br>
-                        referentiegidsen en online hulpbronnen.
-                    </p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="rol"><p><strong>Rol: Levenslang lerende IT-professional</strong></p></td>
-        </tr>
-        <tr>
-            <td><p>OLR11</p></td>
-            <td>
-                <div>
-                    <p>
-                        De gegradueerde onderhoudt zijn deskundigheidsniveau door relevante duurzame <br>
-                        IT- en maatschappelijke ontwikkelingen actief op te volgen.
-                    </p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td><p>OLR12</p></td>
-            <td>
-                <div>
-                    <p>
-                        De gegradueerde is zelfkritisch, ontwikkelt de nodige zelfkennis en gebruikt <br>
-                        deze om zijn persoonlijke en professionele groei te bevorderen.
-                    </p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td><p>OLR13</p></td>
-            <td>
-                <div>
-                    <p>
-                        De gegradueerde handelt deontologisch en duurzaam, en houdt rekening met de <br>
-                        veiligheids- en privacyrichtlijnen.
-                    </p>
-                </div>
-            </td>
-        </tr>
+    <div class="olr-section">
+      <h2 class="section-title">Rollen Info</h2>
+      <table class="olr-table">
+        <thead><tr><th>OLR</th><th>Omschrijving</th></tr></thead>
+        <tbody>
+          <tr class="olr-section-header"><td colspan="2">Rol: Ontwerper</td></tr>
+          <tr><td>OLR1</td><td>De gegradueerde bereidt de realisatie van een softwareproject voor.</td></tr>
+          <tr><td>OLR2</td><td>De gegradueerde maakt een onderbouwd voorstel voor het ontwerp, de programmeertaal en de methodiek, en stemt dit af met de softwareontwikkelaar en/of projectleider.</td></tr>
+          <tr class="olr-section-header"><td colspan="2">Rol: Programmeur</td></tr>
+          <tr><td>OLR3</td><td>De gegradueerde realiseert softwareapplicaties en gegevensstructuren planmatig binnen het projectplan.</td></tr>
+          <tr><td>OLR4</td><td>De gegradueerde is medeverantwoordelijk voor de eigen digitale werkomgeving en draagt bij tot de gedeelde infrastructuur.</td></tr>
+          <tr><td>OLR5</td><td>De gegradueerde programmeert softwaretoepassingen volgens de standaarden en afspraken binnen de organisatie.</td></tr>
+          <tr><td>OLR6</td><td>De gegradueerde voert onderhoud en aanpassingen projectmatig uit, rekening houdend met eerder gemaakte afspraken.</td></tr>
+          <tr class="olr-section-header"><td colspan="2">Rol: Tester</td></tr>
+          <tr><td>OLR7</td><td>De gegradueerde gaat volgens testscenario's de werking en functionaliteit na en verbetert deze op basis van feedback.</td></tr>
+          <tr class="olr-section-header"><td colspan="2">Rol: Communicator / Teamspeler</td></tr>
+          <tr><td>OLR8</td><td>De gegradueerde werkt constructief samen in een multidisciplinair team en zoekt mee naar oplossingen.</td></tr>
+          <tr><td>OLR9</td><td>De gegradueerde communiceert en rapporteert efficiënt over het geleverde werk, aangepast aan het doelpubliek.</td></tr>
+          <tr><td>OLR10</td><td>De gegradueerde documenteert de zelf ontwikkelde applicaties op een adequate en overzichtelijke manier.</td></tr>
+          <tr class="olr-section-header"><td colspan="2">Rol: Levenslang lerende IT-professional</td></tr>
+          <tr><td>OLR11</td><td>De gegradueerde onderhoudt zijn deskundigheidsniveau door relevante IT- en maatschappelijke ontwikkelingen actief op te volgen.</td></tr>
+          <tr><td>OLR12</td><td>De gegradueerde is zelfkritisch, ontwikkelt de nodige zelfkennis en gebruikt deze om zijn groei te bevorderen.</td></tr>
+          <tr><td>OLR13</td><td>De gegradueerde handelt deontologisch en duurzaam, en houdt rekening met veiligheids- en privacyrichtlijnen.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-
-    </table>
-    </section>
-</main>
-<footer>
-    Lars Dreesen
-    <p><a href="#Boven"  class="up"><b>^</b></a></p>
-</footer>
-
+  <footer>Lars Dreesen · <a href="#Boven" class="back-top">↑</a></footer>
 </body>
 </html>
